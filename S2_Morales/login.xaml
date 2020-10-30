@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S2_Morales.login">
+  <!--Pages can be added as references or inline-->
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label ></Label>
+            <Entry Placeholder="Usuaio" x:Name="txtUser"></Entry>
+            <Entry Placeholder="Contraseña"  x:Name="txtPassword" IsPassword="True"></Entry>
+            <Button Text="Ingresar" Clicked="btnMainPage_Clicked1"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
